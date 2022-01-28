@@ -1,0 +1,45 @@
+@import url("./fonts.css");
+@import url("./auth.css");
+:root{
+  --blue-darker: #131843
+}
+body {
+  font-family: "Jost", sans-serif;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.bg-dark-blue {
+  background: var(--blue-darker);
+}
+.bg-white {
+  background: #fff;
+}
+.border-dark-blue {
+  border-color:  var(--blue-darker);
+}
+.text-white {
+  color: #fff;
+}
+.text-dark-blue {
+  color: var(--blue-darker);
+}
+.btn-default{
+  outline: none;
+  border: 1px solid var(--blue-darker);
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  transition: 0.22s;
+}
+.btn-default:hover{
+  box-shadow: 0px 0px 42px -9px rgba(19, 24, 67, 0.62);
+}
