@@ -36,3 +36,13 @@ input::placeholder{
   font-size: initial;
   color: var(--blue-darker);
 }
+
+.verify-content{
+  border: 1px solid rgba(19, 24, 67, 0.15);
+  box-sizing: border-box;
+  box-shadow: 0px 45px 110px -67px rgba(19, 24, 67, 0.43);
+  border-radius: 13px;
+  width: 350px;
+  height: 300px;
+  transform: scale(0);
+}
